@@ -1,0 +1,38 @@
+.answers {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.answers p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.answers button {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.answers button:hover {
+  background-color: #0056b3;
+}
+
+.answers .correct {
+  background-color: #28a745;
+}
+
+.answers .incorrect {
+  background-color: #dc3545;
+}

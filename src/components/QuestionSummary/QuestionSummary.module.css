@@ -1,0 +1,23 @@
+.questionSummary {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.questionSummaryP {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.correctAnswer {
+  color: green;
+}
+
+.incorrectAnswer {
+  color: red;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
